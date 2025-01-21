@@ -1,0 +1,23 @@
+<div align="center">
+    <!-- Recherche d'un livre -->
+    <h1> Biblio. Livres </h1>
+
+    <form action="/search" method="get">
+        <input type="text" name="author" placeholder="Rechercher un livre..." />
+        <button type="submit">Rechercher</button>
+    </form>
+
+
+    <hr>
+
+     <!-- Ajout d'un livre -->
+    <h1> Ajouter une référence </h1>
+
+    <form action="/add_book" method="post">
+        <input type="text" name="title" placeholder="Titre" />
+        <input type="text" name="author" placeholder="Auteur" />
+        <input type="text" name="year" placeholder="Année de plublication" />
+        <button type="submit">Enregistrer</button>
+    </form>
+
+</div>

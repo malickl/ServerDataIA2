@@ -1,0 +1,13 @@
+
+""" @app.route('/api/v1/qui-suis-je', methods = ["GET","POST"])
+def getName():
+    return 'Mahassadi'
+
+
+@app.route('/api/v1/qui-suis-je/<name>', methods = ["GET","POST"])
+def getNameDynnamic(name):
+    return name
+
+@app.route('/api/v1/addition/<a>/<b>', methods = ["GET","POST"])
+def additionn(a,b):
+    return str (int(a) + int(b)) """
